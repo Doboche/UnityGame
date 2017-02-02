@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 1288636288}
   - component: {fileID: 1288636287}
   - component: {fileID: 1288636286}
+  - component: {fileID: 1288636289}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -643,6 +644,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1288636284}
+--- !u!114 &1288636289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288636284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8cb1a3743f5b24984096c38fe536d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1483852294
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +760,7 @@ GameObject:
   - component: {fileID: 1560552343}
   - component: {fileID: 1560552342}
   - component: {fileID: 1560552341}
+  - component: {fileID: 1560552344}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -848,3 +861,14 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1560552339}
+--- !u!114 &1560552344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1560552339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b018ecdfc13ed9140b08311314a56127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
